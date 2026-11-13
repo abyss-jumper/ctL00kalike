@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1,
+    "common_name": "acmebank.com",
+    "name_value": "*.acmebank.com\nacmebank.com",
+    "issuer_name": "C=US, O=Let's Encrypt, CN=R3",
+    "not_before": "2026-01-04T00:00:00"
+  },
+  {
+    "id": 2,
+    "common_name": "acmebank.co",
+    "name_value": "acmebank.co",
+    "issuer_name": "C=US, O=DigiCert Inc, CN=DigiCert TLS RSA SHA256 2020 CA1",
+    "not_before": "2026-02-11T00:00:00"
+  },
+  {
+    "id": 3,
+    "common_name": "acmebank-secure.com",
+    "name_value": "acmebank-secure.com\nwww.acmebank-secure.com",
+    "issuer_name": "C=US, O=Let's Encrypt, CN=R3",
+    "not_before": "2026-03-02T00:00:00"
+  },
+  {
+    "id": 4,
+    "common_name": "acrnebank.com",
+    "name_value": "acrnebank.com",
+    "issuer_name": "C=GB, O=Sectigo Limited, CN=Sectigo RSA DV",
+    "not_before": "2026-03-19T00:00:00"
+  },
+  {
+    "id": 5,
+    "common_name": "acmebank-login.top",
+    "name_value": "acmebank-login.top",
+    "issuer_name": "C=US, O=Let's Encrypt, CN=R3",
+    "not_before": "2026-04-01T00:00:00"
+  },
+  {
+    "id": 6,
+    "common_name": "acnebank.com",
+    "name_value": "acnebank.com",
+    "issuer_name": "C=US, O=Google Trust Services, CN=WR1",
+    "not_before": "2026-04-08T00:00:00"
+  },
+  {
+    "id": 7,
+    "common_name": "acmebankkyc.com",
+    "name_value": "acmebankkyc.com",
+    "issuer_name": "C=US, O=Let's Encrypt, CN=R3",
+    "not_before": "2026-04-12T00:00:00"
+  },
+  {
+    "id": 8,
+    "common_name": "notacmebank.com",
+    "name_value": "notacmebank.com",
+    "issuer_name": "C=US, O=Let's Encrypt, CN=R3",
+    "not_before": "2026-04-20T00:00:00"
+  },
+  {
+    "id": 9,
+    "common_name": "xn--cmebank-1fg.com",
+    "name_value": "xn--cmebank-1fg.com",
+    "issuer_name": "C=KZ, O=PS KZ, CN=test",
+    "not_before": "2026-04-21T00:00:00"
+  },
+  {
+    "id": 10,
+    "common_name": "example.com",
+    "name_value": "example.com\nwww.example.com",
+    "issuer_name": "C=US, O=DigiCert Inc, CN=DigiCert TLS RSA SHA256 2020 CA1",
+    "not_before": "2026-01-01T00:00:00"
+  },
+  {
+    "id": 11,
+    "common_name": "acmelabs.io",
+    "name_value": "acmelabs.io\napi.acmelabs.io",
+    "issuer_name": "C=US, O=Let's Encrypt, CN=R3",
+    "not_before": "2026-02-02T00:00:00"
+  },
+  {
+    "id": 12,
+    "common_name": "unrelatedshop.net",
+    "name_value": "unrelatedshop.net",
+    "issuer_name": "C=US, O=Let's Encrypt, CN=R3",
+    "not_before": "2026-02-14T00:00:00"
+  },
+  {
+    "id": 13,
+    "common_name": "github.com",
+    "name_value": "github.com\n*.github.com",
+    "issuer_name": "C=US, O=DigiCert Inc, CN=DigiCert TLS RSA SHA256 2020 CA1",
+    "not_before": "2026-01-09T00:00:00"
+  }
+]

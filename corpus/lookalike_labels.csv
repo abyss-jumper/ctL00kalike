@@ -1,0 +1,41 @@
+domain,brand,label,note
+acmebank.co,acmebank.com,1,different TLD
+acmebank.tk,acmebank.com,1,abused TLD
+acmebank-secure.com,acmebank.com,1,hyphen + lure word
+acmebank-login.top,acmebank.com,1,lure word, risky TLD
+acrnebank.com,acmebank.com,1,rn/m replacement
+acnebank.com,acmebank.com,1,keyboard typo
+acmebankkyc.com,acmebank.com,1,brand + suffix
+notacmebank.com,acmebank.com,1,brand + prefix
+аcmebank.com,acmebank.com,1,Cyrillic a homoglyph
+acmebenk.com,acmebank.com,1,single character typo
+acmebnak.com,acmebank.com,1,transposition
+www-acmebank.com,acmebank.com,1,hyphen instead of dot
+acmebank.app,acmebank.com,1,alternative TLD
+acmebank-help.com,acmebank.com,1,support lure
+myacmebank.com,acmebank.com,1,prefix
+acmebankverify.com,acmebank.com,1,cramped lure
+acmebank.id,acmebank.com,1,alternative ccTLD
+acmebank.info,acmebank.com,1,alternative TLD
+acrnebank.co.uk,acmebank.com,1,homoglyph + ccTLD
+acmebank.co.uk,acmebank.com,1,same label, ccTLD
+example.com,acmebank.com,0,unrelated
+github.com,acmebank.com,0,unrelated
+acmelabs.io,acmebank.com,0,different brand
+acme.com,acmebank.com,0,short unrelated
+bankrate.com,acmebank.com,0,shared generic word
+mybankreviews.org,acmebank.com,0,generic word only
+acmecorp.net,acmebank.com,0,different brand
+acmeforge.dev,acmebank.com,0,different brand
+bankingweekly.com,acmebank.com,0,generic word only
+secureexample.com,acmebank.com,0,lure word without brand
+login-portal.example,acmebank.com,0,lure words without brand
+unrelatedshop.net,acmebank.com,0,unrelated
+mail.example.com,acmebank.com,0,unrelated subdomain
+docs.python.org,acmebank.com,0,unrelated
+news.ycombinator.com,acmebank.com,0,unrelated
+acme-store.example,acmebank.com,0,reserved example TLD, no brand
+wallet-demo.test,acmebank.com,0,test TLD, no brand
+okta.com,acmebank.com,0,different brand
+stripe.com,acmebank.com,0,different brand
+cdn.acmelabs.io,acmebank.com,0,unrelated subdomain

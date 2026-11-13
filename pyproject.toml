@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ct-lookalike"
+version = "0.1.0"
+description = "Find typosquat and homoglyph domains in Certificate Transparency logs"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "ct-lookalike contributors" }]
+keywords = ["security", "certificate-transparency", "typosquatting", "homoglyph", "osint"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: System Administrators",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Topic :: Security",
+]
+
+[project.scripts]
+ct-lookalike = "ct_lookalike.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/yourname/ct-lookalike"
+
+[tool.setuptools]
+packages = ["ct_lookalike"]
