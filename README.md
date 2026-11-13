@@ -1,6 +1,6 @@
 # ct-lookalike
 
-Hunt Certificate Transparency logs for domains that *look* like yours — typosquats,
+Hunt Certificate Transparency logs for domains that *look* like yours ie typosquats,
 homoglyphs, hyphenated lures etc. before the phishing site gets its certificate.
 
 pure python, deterministic scoring, sqLite state
