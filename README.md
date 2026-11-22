@@ -22,7 +22,7 @@ Lookalike domains for acmebank.com (2026-11-12 08:00 UTC)
 ## Install
 
 ```bash
-git clone https://github.com/YOURNAME/ct-lookalike
+git clone https://github.com/abyss-jumper/ctL00kalike
 cd ct-lookalike
 python -m pip install -e .
 ct-lookalike --demo               # offline, uses the bundled sample feed
