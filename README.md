@@ -1,4 +1,4 @@
-# ct-lookalike
+# ctL00kalike
 
 Hunt Certificate Transparency logs for domains that *look* like yours ie typosquats,
 homoglyphs, hyphenated lures etc. before the phishing site gets its certificate.
@@ -23,7 +23,7 @@ Lookalike domains for acmebank.com (2026-11-12 08:00 UTC)
 
 ```bash
 git clone https://github.com/abyss-jumper/ctL00kalike
-cd ct-lookalike
+cd ctL00kalike
 python -m pip install -e .
 ct-lookalike --demo               # offline, uses the bundled sample feed
 ```
